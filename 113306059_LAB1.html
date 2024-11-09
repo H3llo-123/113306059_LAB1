@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Info</title>
+	</head>
+	<body>
+		<form method = "post" action = "https://deitel.com">
+		<table border = "1">
+			<tr>
+				<th colspan = "3">
+					About--113306059
+				</th>
+			</tr>
+			<tr>
+				<td rowspan = "3">
+					<img src = "..\Downloads\119905.jpg" alt = "my photo" width = "205" height = "167"><br>
+					<div align = "center">personal photo</div>
+				</td>
+				<td colspan = "2">
+					
+					<label>Name:
+						<input name = "name" type = "text" size = "25" maxlength = "30">
+					</label><br>
+					Gender:
+					<input type = "radio" name = "gender" value = "male">Male
+					<input type = "radio" name = "gender" value = "female">Female
+					<input type = "radio" name = "gender" value = "other">Other
+				</td>
+			</tr>
+			<tr>
+				<td>
+					County: 
+					<select name = "counties">
+						<option value = "taipei">Taipei</option>
+						<option value = "tainan">Tainan</option>
+						<option value = "taichung">Taichung</option>
+						<option value = "taoyuan">Taoyuan</option>
+					</select>
+				</td>
+				<td>
+					<label for = "birthday">Birthday:</label>
+					<input type = "date" id = "birthday" name = "birthday" min = "1900-01-01" max = "2024-11-09">
+				</td>
+			</tr>
+			<tr>
+				<td colspan = "2">
+					E-mail:
+					<input type = "email" name = "email">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Hobby
+				</td>
+				<td colspan = "2">
+					<input type = "checkbox" name = "hobby" value = "swimming">Swimming
+					<input type = "checkbox" name = "hobby" value = "volleyball">Volleyball
+					<input type = "checkbox" name = "hobby" value = "movie">Movie
+					<input type = "checkbox" name = "hobby" value = "game">Game
+					<input type = "checkbox" name = "hobby" value = "sleep">sleep
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Skill
+				</td>
+				<td colspan = "2">
+					<input type = "checkbox" name = "skill" value = "java">Java
+					<input type = "checkbox" name = "skill" value = "html">HTML
+					<input type = "checkbox" name = "skill" value = "python">Python
+					<input type = "checkbox" name = "skill" value = "microsoft office">Microsoft Office
+					<input type = "checkbox" name = "skill" value = "premiere">Premiere
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Say Something
+				</td>
+				<td colspan = "2">
+					<textarea rows = "4" cols = "50" placeholder = "Say something here."></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type = "submit" value = "Submit">
+					<input type = "reset" value = "Clear">
+				</td>
+			</tr>
+		</table>
+		</form>
+	</body>
+</html>
